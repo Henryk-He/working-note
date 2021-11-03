@@ -1,0 +1,6 @@
+###列出版本号
+nvm list
+
+###改变nvm的默认版本
+nvm alias default 12
+
