@@ -2,5 +2,9 @@
 knex migrate:make vendor_video_table
 把写好的migration在数据库中创建表
 knex migrate:latest
+执行seeds下的文件
+knex seed:run
+执行seeds下的特定文件
+knex seed:run --specific=seed-filename.js
 
 https://knexjs.org/#Migrations-CLI
