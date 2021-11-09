@@ -1,0 +1,6 @@
+建migrations目录下的文件
+knex migrate:make vendor_video_table
+把写好的migration在数据库中创建表
+knex migrate:latest
+
+https://knexjs.org/#Migrations-CLI
