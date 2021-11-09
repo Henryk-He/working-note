@@ -2,6 +2,12 @@
 knex migrate:make vendor_video_table
 把写好的migration在数据库中创建表
 knex migrate:latest
+执行migrate下特定的文件
+建标
+knex migrate:up 20211109122950_vendor_video_table.js
+删表
+knex migrate:down 20211109122950_vendor_video_table.js
+
 执行seeds下的文件
 knex seed:run
 执行seeds下的特定文件
