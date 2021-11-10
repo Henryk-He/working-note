@@ -4,5 +4,9 @@ git branch ...
 git checkout ...
 git pull origin develop
 
+git add .
+git commit -m 'add get vendors videos API'
+git push origin story/tbmcp-26/build-up-get-videos-api   
+
 https://github.com/Gigmasters/the-bash-mcp
 https://github.com/Gigmasters/the-bash-vendors-api
