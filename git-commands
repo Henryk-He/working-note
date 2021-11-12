@@ -14,3 +14,9 @@ git push origin story/tbmcp-26/build-up-get-videos-api
 
 https://github.com/Gigmasters/the-bash-mcp
 https://github.com/Gigmasters/the-bash-vendors-api
+
+
+代码写在错误的分支上解决方法：
+git stash   //把暂存区的修改存储起来
+git checkout ...   //切换正确的分支
+git stash pop      //将存储的修改取出来
