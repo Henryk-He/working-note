@@ -20,3 +20,7 @@ https://github.com/Gigmasters/the-bash-vendors-api
 git stash   //把暂存区的修改存储起来
 git checkout ...   //切换正确的分支
 git stash pop      //将存储的修改取出来
+
+git fetch origin release/1.9.0/videos
+git checkout release/1.9.0/videos
+git push -f origin release/1.9.0/videos:konoha
