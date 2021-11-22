@@ -28,3 +28,14 @@ git push -f origin release/1.9.0/videos:konoha
 
 //分支改名
 git branch -m oldName newName
+
+
+//解决冲突
+
+git checkout release/1.9.0/videos
+git pull origin release/1.9.0/videos
+git checkout story/tbmcp-39/build-up-sort-videos-api
+git rebase release/1.9.0/videos
+git rebase --continue
+git commit -m '   '
+git push -f origin story/tbmcp-39/build-up-sort-videos-api
