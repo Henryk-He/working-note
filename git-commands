@@ -40,3 +40,6 @@ git rebase release/1.9.0/videos
 git rebase --continue
 git commit -m '   '
 git push -f origin story/tbmcp-39/build-up-sort-videos-api
+
+//将指定的提交（commit）应用于其他分支
+git cherry-pick 28c1e44f34573eca7f27cb894f2f771773a74ee2
