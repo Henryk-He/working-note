@@ -5,6 +5,8 @@ git checkout ...
 git pull origin develop
 删除本地分支 
 git branch -d dev
+删除批量分支
+git branch |grep 'xxx' |xargs git branch -D
 
 
 
